@@ -1,6 +1,6 @@
 //
 //  WBNewFeatureView.swift
-//  传智微博
+//  Weibo
 //
 //  Created by apple on 16/7/3.
 //  Copyright © 2016年 itcast. All rights reserved.

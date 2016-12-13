@@ -21,13 +21,30 @@ let WBRedirectURI = "https://api.weibo.com/oauth2/default.html"
 public let WBUserShouldLoginNotification = "WBUserShouldLoginNotification"
 // MARK: - 用户登录成功通知
 public let WBUserLoginSuccessedNotification = "WBUserLoginSuccessedNotification"
-// MARK: - 新特性页通知
-public let NewFeatureViewControllerDidFinishedGuide = "NewFeatureViewControllerDidFinishedGuide"
-// MARK: - 加载广告页success
-public let AdvertiseImageLoadSuccess = "AdvertiseImageLoadSuccess"
-// MARK: - 加载广告页失败
-public let AdvertiseImageLoadFailure = "AdvertiseImageLoadFailure"
-public let AdvertisePushNotification = "AdvertisePushNotification"
+
+// MARK: - 照片浏览通知定义
+/// @param selectedIndex    选中照片索引
+/// @param urls             浏览照片 URL 字符串数组
+/// @param parentImageViews 父视图的图像视图数组，用户展现和解除转场动画参照
+/// 微博 Cell 浏览照片通知
+let WBStatusCellBrowserPhotoNotification = "WBStatusCellBrowserPhotoNotification"
+/// 选中索引 Key
+let WBStatusCellBrowserPhotoSelectedIndexKey = "WBStatusCellBrowserPhotoSelectedIndexKey"
+/// 浏览照片 URL 字符串 Key
+let WBStatusCellBrowserPhotoURLsKey = "WBStatusCellBrowserPhotoURLsKey"
+/// 父视图的图像视图数组 Key
+let WBStatusCellBrowserPhotoImageViewsKey = "WBStatusCellBrowserPhotoImageViewsKey"
+
+// MARK: - 微博配图视图常量
+// 配图视图外侧的间距
+let WBStatusPictureViewOutterMargin = CGFloat(12)
+// 配图视图内部图像视图的间距
+let WBStatusPictureViewInnerMargin = CGFloat(3)
+// 视图的宽度的宽度
+let WBStatusPictureViewWidth = UIScreen.sl_screenWidth() - 2 * WBStatusPictureViewOutterMargin
+// 每个 Item 默认的宽度
+let WBStatusPictureItemWidth = (WBStatusPictureViewWidth - 2 * WBStatusPictureViewInnerMargin) / 3
+
 
 /// 屏幕的宽
 let SCREENW = UIScreen.main.bounds.size.width

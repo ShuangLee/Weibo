@@ -47,6 +47,38 @@
 		C43F3A111DFFDB7D0052C753 /* OAUthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A101DFFDB7D0052C753 /* OAUthViewController.swift */; };
 		C43F3A141DFFE4FA0052C753 /* WBNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A121DFFE4FA0052C753 /* WBNewFeatureView.swift */; };
 		C43F3A151DFFE4FA0052C753 /* WBNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A131DFFE4FA0052C753 /* WBNewFeatureView.xib */; };
+		C43F3A211DFFF1C40052C753 /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A181DFFF1C40052C753 /* HMPhotoBrowserAnimator.m */; };
+		C43F3A221DFFF1C40052C753 /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A1A1DFFF1C40052C753 /* HMPhotoBrowserController.m */; };
+		C43F3A231DFFF1C40052C753 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A1C1DFFF1C40052C753 /* HMPhotoBrowserPhotos.m */; };
+		C43F3A241DFFF1C40052C753 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A1E1DFFF1C40052C753 /* HMPhotoProgressView.m */; };
+		C43F3A251DFFF1C40052C753 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A201DFFF1C40052C753 /* HMPhotoViewerController.m */; };
+		C43F3A281DFFF1CE0052C753 /* FFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A271DFFF1CE0052C753 /* FFLabel.swift */; };
+		C43F3A371DFFF1D90052C753 /* CZEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A2A1DFFF1D90052C753 /* CZEmoticonManager.swift */; };
+		C43F3A381DFFF1D90052C753 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A2B1DFFF1D90052C753 /* HMEmoticon.bundle */; };
+		C43F3A391DFFF1D90052C753 /* CZEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A2D1DFFF1D90052C753 /* CZEmoticon.swift */; };
+		C43F3A3A1DFFF1D90052C753 /* CZEmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A2E1DFFF1D90052C753 /* CZEmoticonAttachment.swift */; };
+		C43F3A3B1DFFF1D90052C753 /* CZEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A2F1DFFF1D90052C753 /* CZEmoticonPackage.swift */; };
+		C43F3A3C1DFFF1D90052C753 /* CZEmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A311DFFF1D90052C753 /* CZEmoticonCell.swift */; };
+		C43F3A3D1DFFF1D90052C753 /* CZEmoticonInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A321DFFF1D90052C753 /* CZEmoticonInputView.swift */; };
+		C43F3A3E1DFFF1D90052C753 /* CZEmoticonInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A331DFFF1D90052C753 /* CZEmoticonInputView.xib */; };
+		C43F3A3F1DFFF1D90052C753 /* CZEmoticonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A341DFFF1D90052C753 /* CZEmoticonLayout.swift */; };
+		C43F3A401DFFF1D90052C753 /* CZEmoticonTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A351DFFF1D90052C753 /* CZEmoticonTipView.swift */; };
+		C43F3A411DFFF1D90052C753 /* CZEmoticonToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A361DFFF1D90052C753 /* CZEmoticonToolbar.swift */; };
+		C43F3A441DFFF2580052C753 /* WBStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A431DFFF2580052C753 /* WBStatusListViewModel.swift */; };
+		C43F3A461DFFF2D10052C753 /* WBStatusListDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A451DFFF2D10052C753 /* WBStatusListDAL.swift */; };
+		C43F3A481DFFF2E00052C753 /* WBStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A471DFFF2E00052C753 /* WBStatusViewModel.swift */; };
+		C43F3A4C1DFFF47F0052C753 /* CZSQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A4A1DFFF47F0052C753 /* CZSQLiteManager.swift */; };
+		C43F3A4D1DFFF47F0052C753 /* status.sql in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A4B1DFFF47F0052C753 /* status.sql */; };
+		C43F3A4F1DFFF4CE0052C753 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A4E1DFFF4CE0052C753 /* UIImage+Extension.swift */; };
+		C43F3A511DFFF4DA0052C753 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A501DFFF4DA0052C753 /* UIImageView+Extension.swift */; };
+		C43F3A581DFFF9760052C753 /* WBStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A531DFFF9760052C753 /* WBStatusCell.swift */; };
+		C43F3A591DFFF9760052C753 /* WBStatusNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A541DFFF9760052C753 /* WBStatusNormalCell.xib */; };
+		C43F3A5A1DFFF9760052C753 /* WBStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A551DFFF9760052C753 /* WBStatusPictureView.swift */; };
+		C43F3A5B1DFFF9760052C753 /* WBStatusRetweetedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A561DFFF9760052C753 /* WBStatusRetweetedCell.xib */; };
+		C43F3A5C1DFFF9760052C753 /* WBStatusToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A571DFFF9760052C753 /* WBStatusToolBar.swift */; };
+		C43F3A5F1DFFF97D0052C753 /* WBTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A5E1DFFF97D0052C753 /* WBTitleButton.swift */; };
+		C43F3A631DFFFA5C0052C753 /* WBWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A621DFFFA5C0052C753 /* WBWebViewController.swift */; };
+		C43F3A661DFFFB2A0052C753 /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A651DFFFB2A0052C753 /* WBDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +146,44 @@
 		C43F3A101DFFDB7D0052C753 /* OAUthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAUthViewController.swift; sourceTree = "<group>"; };
 		C43F3A121DFFE4FA0052C753 /* WBNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNewFeatureView.swift; sourceTree = "<group>"; };
 		C43F3A131DFFE4FA0052C753 /* WBNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBNewFeatureView.xib; sourceTree = "<group>"; };
+		C43F3A171DFFF1C40052C753 /* HMPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserAnimator.h; sourceTree = "<group>"; };
+		C43F3A181DFFF1C40052C753 /* HMPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserAnimator.m; sourceTree = "<group>"; };
+		C43F3A191DFFF1C40052C753 /* HMPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserController.h; sourceTree = "<group>"; };
+		C43F3A1A1DFFF1C40052C753 /* HMPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserController.m; sourceTree = "<group>"; };
+		C43F3A1B1DFFF1C40052C753 /* HMPhotoBrowserPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserPhotos.h; sourceTree = "<group>"; };
+		C43F3A1C1DFFF1C40052C753 /* HMPhotoBrowserPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserPhotos.m; sourceTree = "<group>"; };
+		C43F3A1D1DFFF1C40052C753 /* HMPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoProgressView.h; sourceTree = "<group>"; };
+		C43F3A1E1DFFF1C40052C753 /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
+		C43F3A1F1DFFF1C40052C753 /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
+		C43F3A201DFFF1C40052C753 /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		C43F3A271DFFF1CE0052C753 /* FFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLabel.swift; sourceTree = "<group>"; };
+		C43F3A2A1DFFF1D90052C753 /* CZEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonManager.swift; sourceTree = "<group>"; };
+		C43F3A2B1DFFF1D90052C753 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
+		C43F3A2D1DFFF1D90052C753 /* CZEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticon.swift; sourceTree = "<group>"; };
+		C43F3A2E1DFFF1D90052C753 /* CZEmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonAttachment.swift; sourceTree = "<group>"; };
+		C43F3A2F1DFFF1D90052C753 /* CZEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonPackage.swift; sourceTree = "<group>"; };
+		C43F3A311DFFF1D90052C753 /* CZEmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonCell.swift; sourceTree = "<group>"; };
+		C43F3A321DFFF1D90052C753 /* CZEmoticonInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonInputView.swift; sourceTree = "<group>"; };
+		C43F3A331DFFF1D90052C753 /* CZEmoticonInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZEmoticonInputView.xib; sourceTree = "<group>"; };
+		C43F3A341DFFF1D90052C753 /* CZEmoticonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonLayout.swift; sourceTree = "<group>"; };
+		C43F3A351DFFF1D90052C753 /* CZEmoticonTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonTipView.swift; sourceTree = "<group>"; };
+		C43F3A361DFFF1D90052C753 /* CZEmoticonToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonToolbar.swift; sourceTree = "<group>"; };
+		C43F3A421DFFF2040052C753 /* Weibo-bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Weibo-bridge.h"; sourceTree = SOURCE_ROOT; };
+		C43F3A431DFFF2580052C753 /* WBStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusListViewModel.swift; sourceTree = "<group>"; };
+		C43F3A451DFFF2D10052C753 /* WBStatusListDAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusListDAL.swift; sourceTree = "<group>"; };
+		C43F3A471DFFF2E00052C753 /* WBStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusViewModel.swift; sourceTree = "<group>"; };
+		C43F3A4A1DFFF47F0052C753 /* CZSQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZSQLiteManager.swift; sourceTree = "<group>"; };
+		C43F3A4B1DFFF47F0052C753 /* status.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.sql; sourceTree = "<group>"; };
+		C43F3A4E1DFFF4CE0052C753 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		C43F3A501DFFF4DA0052C753 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C43F3A531DFFF9760052C753 /* WBStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusCell.swift; sourceTree = "<group>"; };
+		C43F3A541DFFF9760052C753 /* WBStatusNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBStatusNormalCell.xib; sourceTree = "<group>"; };
+		C43F3A551DFFF9760052C753 /* WBStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusPictureView.swift; sourceTree = "<group>"; };
+		C43F3A561DFFF9760052C753 /* WBStatusRetweetedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBStatusRetweetedCell.xib; sourceTree = "<group>"; };
+		C43F3A571DFFF9760052C753 /* WBStatusToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusToolBar.swift; sourceTree = "<group>"; };
+		C43F3A5E1DFFF97D0052C753 /* WBTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTitleButton.swift; sourceTree = "<group>"; };
+		C43F3A621DFFFA5C0052C753 /* WBWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWebViewController.swift; sourceTree = "<group>"; };
+		C43F3A651DFFFB2A0052C753 /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
 		CAB41094FF5928015AB5372D /* Pods-Weibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weibo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Weibo/Pods-Weibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +257,7 @@
 			children = (
 				C4232C041DFAA6CF00E826AB /* Classes */,
 				C4232BD41DFAA2AE00E826AB /* AppDelegate.swift */,
+				C43F3A421DFFF2040052C753 /* Weibo-bridge.h */,
 				C4232BDB1DFAA2AE00E826AB /* Assets.xcassets */,
 				C4232BE01DFAA2AE00E826AB /* Info.plist */,
 			);
@@ -214,6 +285,7 @@
 		C4232C041DFAA6CF00E826AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C43F3A641DFFFB190052C753 /* Test */,
 				C4232C0F1DFAA8A500E826AB /* View */,
 				C4232C0E1DFAA89A00E826AB /* ViewModel */,
 				C4232C051DFAA6CF00E826AB /* Model */,
@@ -235,6 +307,7 @@
 		C4232C061DFAA6CF00E826AB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C43F3A491DFFF47F0052C753 /* SQLite */,
 				C43F39F81DFEA4EC0052C753 /* HttpClient */,
 				C43F39DA1DFE9B340052C753 /* UILib */,
 				C4232C251DFAB09B00E826AB /* Extension */,
@@ -246,6 +319,9 @@
 		C4232C0E1DFAA89A00E826AB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C43F3A431DFFF2580052C753 /* WBStatusListViewModel.swift */,
+				C43F3A451DFFF2D10052C753 /* WBStatusListDAL.swift */,
+				C43F3A471DFFF2E00052C753 /* WBStatusViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -273,7 +349,10 @@
 		C4232C111DFAA8A500E826AB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C43F3A5D1DFFF97D0052C753 /* TitleButton */,
+				C43F3A521DFFF9760052C753 /* StatusCell */,
 				C4232C1B1DFAA97600E826AB /* HomeViewController.swift */,
+				C43F3A621DFFFA5C0052C753 /* WBWebViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -316,6 +395,8 @@
 				C43F39F61DFEA2120052C753 /* UILabel+Extension.swift */,
 				C43F39FE1DFEA85B0052C753 /* String+Extension.swift */,
 				C43F3A0E1DFFD7640052C753 /* Date+Extension.swift */,
+				C43F3A4E1DFFF4CE0052C753 /* UIImage+Extension.swift */,
+				C43F3A501DFFF4DA0052C753 /* UIImageView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -323,6 +404,9 @@
 		C43F39DA1DFE9B340052C753 /* UILib */ = {
 			isa = PBXGroup;
 			children = (
+				C43F3A291DFFF1D90052C753 /* Emoticon */,
+				C43F3A261DFFF1CE0052C753 /* FFLabel */,
+				C43F3A161DFFF1C40052C753 /* PhotoBrowser */,
 				C43F39DB1DFE9B560052C753 /* SLRefreshControl */,
 			);
 			path = UILib;
@@ -395,6 +479,102 @@
 				C43F39FC1DFEA7800052C753 /* UserAccount.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C43F3A161DFFF1C40052C753 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A171DFFF1C40052C753 /* HMPhotoBrowserAnimator.h */,
+				C43F3A181DFFF1C40052C753 /* HMPhotoBrowserAnimator.m */,
+				C43F3A191DFFF1C40052C753 /* HMPhotoBrowserController.h */,
+				C43F3A1A1DFFF1C40052C753 /* HMPhotoBrowserController.m */,
+				C43F3A1B1DFFF1C40052C753 /* HMPhotoBrowserPhotos.h */,
+				C43F3A1C1DFFF1C40052C753 /* HMPhotoBrowserPhotos.m */,
+				C43F3A1D1DFFF1C40052C753 /* HMPhotoProgressView.h */,
+				C43F3A1E1DFFF1C40052C753 /* HMPhotoProgressView.m */,
+				C43F3A1F1DFFF1C40052C753 /* HMPhotoViewerController.h */,
+				C43F3A201DFFF1C40052C753 /* HMPhotoViewerController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		C43F3A261DFFF1CE0052C753 /* FFLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A271DFFF1CE0052C753 /* FFLabel.swift */,
+			);
+			path = FFLabel;
+			sourceTree = "<group>";
+		};
+		C43F3A291DFFF1D90052C753 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A2A1DFFF1D90052C753 /* CZEmoticonManager.swift */,
+				C43F3A2B1DFFF1D90052C753 /* HMEmoticon.bundle */,
+				C43F3A2C1DFFF1D90052C753 /* Model */,
+				C43F3A301DFFF1D90052C753 /* View */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		C43F3A2C1DFFF1D90052C753 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A2D1DFFF1D90052C753 /* CZEmoticon.swift */,
+				C43F3A2E1DFFF1D90052C753 /* CZEmoticonAttachment.swift */,
+				C43F3A2F1DFFF1D90052C753 /* CZEmoticonPackage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C43F3A301DFFF1D90052C753 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A311DFFF1D90052C753 /* CZEmoticonCell.swift */,
+				C43F3A321DFFF1D90052C753 /* CZEmoticonInputView.swift */,
+				C43F3A331DFFF1D90052C753 /* CZEmoticonInputView.xib */,
+				C43F3A341DFFF1D90052C753 /* CZEmoticonLayout.swift */,
+				C43F3A351DFFF1D90052C753 /* CZEmoticonTipView.swift */,
+				C43F3A361DFFF1D90052C753 /* CZEmoticonToolbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C43F3A491DFFF47F0052C753 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A4A1DFFF47F0052C753 /* CZSQLiteManager.swift */,
+				C43F3A4B1DFFF47F0052C753 /* status.sql */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		C43F3A521DFFF9760052C753 /* StatusCell */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A531DFFF9760052C753 /* WBStatusCell.swift */,
+				C43F3A541DFFF9760052C753 /* WBStatusNormalCell.xib */,
+				C43F3A551DFFF9760052C753 /* WBStatusPictureView.swift */,
+				C43F3A561DFFF9760052C753 /* WBStatusRetweetedCell.xib */,
+				C43F3A571DFFF9760052C753 /* WBStatusToolBar.swift */,
+			);
+			path = StatusCell;
+			sourceTree = "<group>";
+		};
+		C43F3A5D1DFFF97D0052C753 /* TitleButton */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A5E1DFFF97D0052C753 /* WBTitleButton.swift */,
+			);
+			path = TitleButton;
+			sourceTree = "<group>";
+		};
+		C43F3A641DFFFB190052C753 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A651DFFFB2A0052C753 /* WBDemoViewController.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,10 +687,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43F3A3E1DFFF1D90052C753 /* CZEmoticonInputView.xib in Resources */,
 				C43F39F21DFEA0B40052C753 /* main.json in Resources */,
 				C43F39E51DFE9BC90052C753 /* SLMeituanRefreshView.xib in Resources */,
 				C43F3A151DFFE4FA0052C753 /* WBNewFeatureView.xib in Resources */,
+				C43F3A4D1DFFF47F0052C753 /* status.sql in Resources */,
+				C43F3A591DFFF9760052C753 /* WBStatusNormalCell.xib in Resources */,
 				C43F3A071DFFC67C0052C753 /* WBWelcomeView.xib in Resources */,
+				C43F3A381DFFF1D90052C753 /* HMEmoticon.bundle in Resources */,
+				C43F3A5B1DFFF9760052C753 /* WBStatusRetweetedCell.xib in Resources */,
 				C43F39E61DFE9BC90052C753 /* SLRefreshView.xib in Resources */,
 				C43F39E71DFE9BC90052C753 /* SLHumanRefreshView.xib in Resources */,
 				C4232BDC1DFAA2AE00E826AB /* Assets.xcassets in Resources */,
@@ -587,35 +772,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4232C1C1DFAA97600E826AB /* HomeViewController.swift in Sources */,
+				C43F3A4C1DFFF47F0052C753 /* CZSQLiteManager.swift in Sources */,
 				C4232BD51DFAA2AE00E826AB /* AppDelegate.swift in Sources */,
+				C43F3A251DFFF1C40052C753 /* HMPhotoViewerController.m in Sources */,
+				C43F3A371DFFF1D90052C753 /* CZEmoticonManager.swift in Sources */,
 				C4232C201DFAA99B00E826AB /* DiscoverViewController.swift in Sources */,
+				C43F3A3F1DFFF1D90052C753 /* CZEmoticonLayout.swift in Sources */,
 				C43F3A141DFFE4FA0052C753 /* WBNewFeatureView.swift in Sources */,
 				C4232C2B1DFABA5900E826AB /* Bundle+Extension.swift in Sources */,
 				C43F39FB1DFEA5600052C753 /* HttpClientManager.swift in Sources */,
 				C43F39F11DFEA0B40052C753 /* LsNavigationViewController.swift in Sources */,
+				C43F3A3B1DFFF1D90052C753 /* CZEmoticonPackage.swift in Sources */,
+				C43F3A481DFFF2E00052C753 /* WBStatusViewModel.swift in Sources */,
 				C43F3A111DFFDB7D0052C753 /* OAUthViewController.swift in Sources */,
 				C43F39F01DFEA0B40052C753 /* BaseViewController.swift in Sources */,
+				C43F3A511DFFF4DA0052C753 /* UIImageView+Extension.swift in Sources */,
 				C43F39F51DFEA0E20052C753 /* WBVistorView.swift in Sources */,
+				C43F3A5A1DFFF9760052C753 /* WBStatusPictureView.swift in Sources */,
 				C43F39E31DFE9BC90052C753 /* SLRefreshView.swift in Sources */,
+				C43F3A4F1DFFF4CE0052C753 /* UIImage+Extension.swift in Sources */,
 				C43F39F71DFEA2120052C753 /* UILabel+Extension.swift in Sources */,
+				C43F3A391DFFF1D90052C753 /* CZEmoticon.swift in Sources */,
 				C43F39AB1DFE80ED0052C753 /* UIButton+Extension.swift in Sources */,
+				C43F3A3A1DFFF1D90052C753 /* CZEmoticonAttachment.swift in Sources */,
+				C43F3A3D1DFFF1D90052C753 /* CZEmoticonInputView.swift in Sources */,
 				C4232C241DFAAD9400E826AB /* SLConst.swift in Sources */,
 				C43F3A011DFEAC0E0052C753 /* HttpClientManager+Extension.swift in Sources */,
+				C43F3A581DFFF9760052C753 /* WBStatusCell.swift in Sources */,
 				C43F39FF1DFEA85B0052C753 /* String+Extension.swift in Sources */,
+				C43F3A441DFFF2580052C753 /* WBStatusListViewModel.swift in Sources */,
 				C43F39E41DFE9BC90052C753 /* SLMeituanRefreshView.swift in Sources */,
+				C43F3A631DFFFA5C0052C753 /* WBWebViewController.swift in Sources */,
+				C43F3A461DFFF2D10052C753 /* WBStatusListDAL.swift in Sources */,
 				C43F3A0D1DFFD70E0052C753 /* WBUser.swift in Sources */,
 				C43F3A0F1DFFD7640052C753 /* Date+Extension.swift in Sources */,
 				C4232C1E1DFAA98D00E826AB /* MessageViewController.swift in Sources */,
+				C43F3A211DFFF1C40052C753 /* HMPhotoBrowserAnimator.m in Sources */,
+				C43F3A5F1DFFF97D0052C753 /* WBTitleButton.swift in Sources */,
 				C43F39E21DFE9BC90052C753 /* SLRefreshControl.swift in Sources */,
 				C4232C221DFAA9A800E826AB /* ProfileViewController.swift in Sources */,
+				C43F3A3C1DFFF1D90052C753 /* CZEmoticonCell.swift in Sources */,
+				C43F3A281DFFF1CE0052C753 /* FFLabel.swift in Sources */,
+				C43F3A241DFFF1C40052C753 /* HMPhotoProgressView.m in Sources */,
+				C43F3A401DFFF1D90052C753 /* CZEmoticonTipView.swift in Sources */,
 				C4232C271DFAB0B800E826AB /* UIColor+Extension.swift in Sources */,
 				C43F39D71DFE8B8E0052C753 /* UIBarButtonItem+Extension.swift in Sources */,
 				C43F3A0B1DFFD7030052C753 /* WBStatusPicture.swift in Sources */,
 				C43F39D91DFE91840052C753 /* UIScreen+Extension.swift in Sources */,
+				C43F3A5C1DFFF9760052C753 /* WBStatusToolBar.swift in Sources */,
 				C43F39F31DFEA0B40052C753 /* MainViewController.swift in Sources */,
+				C43F3A221DFFF1C40052C753 /* HMPhotoBrowserController.m in Sources */,
 				C43F39FD1DFEA7800052C753 /* UserAccount.swift in Sources */,
 				C43F3A091DFFD6770052C753 /* WBStatus.swift in Sources */,
 				C43F3A061DFFC67C0052C753 /* WBWelcomeView.swift in Sources */,
+				C43F3A661DFFFB2A0052C753 /* WBDemoViewController.swift in Sources */,
+				C43F3A231DFFF1C40052C753 /* HMPhotoBrowserPhotos.m in Sources */,
+				C43F3A411DFFF1D90052C753 /* CZEmoticonToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,6 +965,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sl.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Weibo-bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -768,6 +981,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sl.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Weibo-bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
