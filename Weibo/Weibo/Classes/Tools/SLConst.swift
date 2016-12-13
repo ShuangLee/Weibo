@@ -8,7 +8,19 @@
 
 import UIKit
 
+// MARK: - 应用程序信息
+/// 应用程序 ID
+let WBAppKey = "1486805696"
+/// 应用程序加密信息(开发者可以申请修改)
+let WBAppSecret = "ee4d289badb176c371651cd80885b0b7"
+/// 回调地址 - 登录完成调转的 URL，参数以 get 形式拼接
+let WBRedirectURI = "https://api.weibo.com/oauth2/default.html"
+
 // MARK: - 通知
+// MARK: - 用户需要登录通知
+public let WBUserShouldLoginNotification = "WBUserShouldLoginNotification"
+// MARK: - 用户登录成功通知
+public let WBUserLoginSuccessedNotification = "WBUserLoginSuccessedNotification"
 // MARK: - 新特性页通知
 public let NewFeatureViewControllerDidFinishedGuide = "NewFeatureViewControllerDidFinishedGuide"
 // MARK: - 加载广告页success

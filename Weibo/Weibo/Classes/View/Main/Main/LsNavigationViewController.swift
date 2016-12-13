@@ -27,7 +27,7 @@ class LsNavigationViewController: UINavigationController {
         let item = UIBarButtonItem.appearance()
         var itemAttrs: [String: AnyObject] = Dictionary()
         itemAttrs[NSFontAttributeName] = UIFont.systemFont(ofSize: 15)
-        itemAttrs[NSForegroundColorAttributeName] = UIColor.white
+        itemAttrs[NSForegroundColorAttributeName] = UIColor.orange
         item.setTitleTextAttributes((itemAttrs as [String: AnyObject]), for: UIControlState.normal)
         
         var itemDisabledAttrs: [String: AnyObject] = Dictionary()
