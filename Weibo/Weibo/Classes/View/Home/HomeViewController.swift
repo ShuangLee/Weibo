@@ -58,7 +58,6 @@ class HomeViewController: BaseViewController {
     override func loadData() {
         
         print("准备刷新")
-        // Xcode 8.0 的刷新控件，beginRefreshing 方法，什么都不显示！
         refreshControl?.beginRefreshing()
         
         // 模拟演示加载数据

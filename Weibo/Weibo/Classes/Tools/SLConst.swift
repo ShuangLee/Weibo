@@ -8,6 +8,72 @@
 
 import UIKit
 
+// MARK: - 封装日志输出方法
+//封装的日志输出功能（T表示不指定日志信息参数类型）
+func LsLog<T>(_ message:T, file:String = #file, function:String = #function,
+           line:Int = #line) {
+    #if DEBUG
+        //获取文件名
+        let fileName = (file as NSString).lastPathComponent
+        //打印日志内容
+        print("\(fileName):\(line) \(function) | \(message)")
+    #endif
+}
+
+///  封装的日志输出功能（T表示不指定日志信息参数类型）
+///  这里我将日志信息写到应用的 Caches 文件夹中（Library/Caches/log.txt）
+///  为了让日志信息更加丰富，再将日志写到文件中时还会附上调用的日期时间。
+///  打印日志并写入本地文件 再次重启程序可以查看本地日志
+/// - Parameters:
+///   - message: 输出文字
+///   - file: 文件名
+///   - function: 方法名
+///   - line: 行号
+func DebugLog<T>(_ message:T, file:String = #file, function:String = #function,
+           line:Int = #line) {
+    #if DEBUG
+        //获取文件名
+        let fileName = (file as NSString).lastPathComponent
+        //日志内容
+        let consoleStr = "\(fileName):\(line) \(function) | \(message)"
+        //打印日志内容
+        print(consoleStr)
+        
+        // 创建一个日期格式器
+        let dformatter = DateFormatter()
+        // 为日期格式器设置格式字符串
+        dformatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        // 使用日期格式器格式化当前日期、时间
+        let datestr = dformatter.string(from: Date())
+        
+        //将内容同步写到文件中去（Caches文件夹下）
+        let cachePath = FileManager.default.urls(for: .cachesDirectory,
+                                                 in: .userDomainMask)[0]
+        let logURL = cachePath.appendingPathComponent("log.txt")
+        appendText(fileURL: logURL, string: "\(datestr) \(consoleStr)")
+    #endif
+}
+
+//在文件末尾追加新内容
+func appendText(fileURL: URL, string: String) {
+    do {
+        //如果文件不存在则新建一个
+        if !FileManager.default.fileExists(atPath: fileURL.path) {
+            FileManager.default.createFile(atPath: fileURL.path, contents: nil)
+        }
+        
+        let fileHandle = try FileHandle(forWritingTo: fileURL)
+        let stringToWrite = "\n" + string
+        
+        //找到末尾位置并添加
+        fileHandle.seekToEndOfFile()
+        fileHandle.write(stringToWrite.data(using: String.Encoding.utf8)!)
+        
+    } catch let error as NSError {
+        print("failed to append: \(error)")
+    }
+}
+
 // MARK: - 应用程序信息
 /// 应用程序 ID
 let WBAppKey = "1486805696"
@@ -96,3 +162,7 @@ let isIPhone6 = SCREENH == 667 ? true : false
 /// iPhone 6P
 let isIPhone6P = SCREENH == 736 ? true : false
 
+// MARK: - 计算多行文本高度
+func caculateTextHeight(text: String, viewSize: CGSize, font: UIFont) -> CGFloat {
+    return (text as NSString).boundingRect(with: viewSize, options: [.usesLineFragmentOrigin], attributes: [NSFontAttributeName: font], context: nil).height
+}

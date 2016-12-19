@@ -79,6 +79,11 @@
 		C43F3A5F1DFFF97D0052C753 /* WBTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A5E1DFFF97D0052C753 /* WBTitleButton.swift */; };
 		C43F3A631DFFFA5C0052C753 /* WBWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A621DFFFA5C0052C753 /* WBWebViewController.swift */; };
 		C43F3A661DFFFB2A0052C753 /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A651DFFFB2A0052C753 /* WBDemoViewController.swift */; };
+		C482269D1E02344200F74AB5 /* WBComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482269C1E02344200F74AB5 /* WBComposeTextView.swift */; };
+		C48226A21E02344C00F74AB5 /* WBComposeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482269E1E02344C00F74AB5 /* WBComposeTypeView.swift */; };
+		C48226A31E02344C00F74AB5 /* WBComposeTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C482269F1E02344C00F74AB5 /* WBComposeTypeView.xib */; };
+		C48226A41E02344C00F74AB5 /* WBComposeTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48226A01E02344C00F74AB5 /* WBComposeTypeButton.swift */; };
+		C48226A51E02344C00F74AB5 /* WBComposeTypeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48226A11E02344C00F74AB5 /* WBComposeTypeButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +189,11 @@
 		C43F3A5E1DFFF97D0052C753 /* WBTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTitleButton.swift; sourceTree = "<group>"; };
 		C43F3A621DFFFA5C0052C753 /* WBWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWebViewController.swift; sourceTree = "<group>"; };
 		C43F3A651DFFFB2A0052C753 /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
+		C482269C1E02344200F74AB5 /* WBComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTextView.swift; sourceTree = "<group>"; };
+		C482269E1E02344C00F74AB5 /* WBComposeTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTypeView.swift; sourceTree = "<group>"; };
+		C482269F1E02344C00F74AB5 /* WBComposeTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBComposeTypeView.xib; sourceTree = "<group>"; };
+		C48226A01E02344C00F74AB5 /* WBComposeTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTypeButton.swift; sourceTree = "<group>"; };
+		C48226A11E02344C00F74AB5 /* WBComposeTypeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBComposeTypeButton.xib; sourceTree = "<group>"; };
 		CAB41094FF5928015AB5372D /* Pods-Weibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weibo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Weibo/Pods-Weibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +339,7 @@
 		C4232C0F1DFAA8A500E826AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C482269B1E02338C00F74AB5 /* Compose */,
 				C4232C121DFAA8A500E826AB /* Main */,
 				C4232C111DFAA8A500E826AB /* Home */,
 				C4232C131DFAA8A500E826AB /* Message */,
@@ -577,6 +588,18 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		C482269B1E02338C00F74AB5 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				C482269C1E02344200F74AB5 /* WBComposeTextView.swift */,
+				C482269E1E02344C00F74AB5 /* WBComposeTypeView.swift */,
+				C482269F1E02344C00F74AB5 /* WBComposeTypeView.xib */,
+				C48226A01E02344C00F74AB5 /* WBComposeTypeButton.swift */,
+				C48226A11E02344C00F74AB5 /* WBComposeTypeButton.xib */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -691,8 +714,10 @@
 				C43F39F21DFEA0B40052C753 /* main.json in Resources */,
 				C43F39E51DFE9BC90052C753 /* SLMeituanRefreshView.xib in Resources */,
 				C43F3A151DFFE4FA0052C753 /* WBNewFeatureView.xib in Resources */,
+				C48226A31E02344C00F74AB5 /* WBComposeTypeView.xib in Resources */,
 				C43F3A4D1DFFF47F0052C753 /* status.sql in Resources */,
 				C43F3A591DFFF9760052C753 /* WBStatusNormalCell.xib in Resources */,
+				C48226A51E02344C00F74AB5 /* WBComposeTypeButton.xib in Resources */,
 				C43F3A071DFFC67C0052C753 /* WBWelcomeView.xib in Resources */,
 				C43F3A381DFFF1D90052C753 /* HMEmoticon.bundle in Resources */,
 				C43F3A5B1DFFF9760052C753 /* WBStatusRetweetedCell.xib in Resources */,
@@ -791,9 +816,12 @@
 				C43F3A5A1DFFF9760052C753 /* WBStatusPictureView.swift in Sources */,
 				C43F39E31DFE9BC90052C753 /* SLRefreshView.swift in Sources */,
 				C43F3A4F1DFFF4CE0052C753 /* UIImage+Extension.swift in Sources */,
+				C48226A21E02344C00F74AB5 /* WBComposeTypeView.swift in Sources */,
 				C43F39F71DFEA2120052C753 /* UILabel+Extension.swift in Sources */,
+				C482269D1E02344200F74AB5 /* WBComposeTextView.swift in Sources */,
 				C43F3A391DFFF1D90052C753 /* CZEmoticon.swift in Sources */,
 				C43F39AB1DFE80ED0052C753 /* UIButton+Extension.swift in Sources */,
+				C48226A41E02344C00F74AB5 /* WBComposeTypeButton.swift in Sources */,
 				C43F3A3A1DFFF1D90052C753 /* CZEmoticonAttachment.swift in Sources */,
 				C43F3A3D1DFFF1D90052C753 /* CZEmoticonInputView.swift in Sources */,
 				C4232C241DFAAD9400E826AB /* SLConst.swift in Sources */,
